@@ -1,4 +1,13 @@
 :root {
     --primary-color: white;
-    --primary-label:
+    --primary-label: black;
+    --secondary-label: white;
+    --white-ball: white;
+    --black-ball: black;
+}
+body {
+    background: var(--primary-color);
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
